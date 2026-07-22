@@ -2,7 +2,7 @@
   "name": "vscode-computercraft",
   "displayName": "ComputerCraft",
   "description": "Autocompletion for the ComputerCraft/CC: Tweaked APIs",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "publisher": "JackMacWindows",
   "repository": {
     "type": "git",
@@ -44,7 +44,7 @@
   "devDependencies": {
     "@types/node": "^6.0.40",
     "fs": "0.0.1-security",
-    "typescript": "^2.0.3",
+    "typescript": "^5.0.0",
     "typings": "^2.1.1",
     "vscode": "^1.1.22"
   }

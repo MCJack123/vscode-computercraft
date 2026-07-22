@@ -1,4 +1,7 @@
 **/*.ts
 **/tsconfig.json
+**/*.map
 images/*
 !images/icon.png
+.vscode
+.gitignore

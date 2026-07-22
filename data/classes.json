@@ -260,6 +260,19 @@
                     }
                 }
             },
+            "fromBlit": {
+                "name": "fromBlit",
+                "type": "function",
+                "doc": "Converts the given color from a paint/blit hex character (0-9, a-f). (CC:T 1.105+)",
+                "returns": "color",
+                "args": {
+                    "color": {
+                        "name": "color",
+                        "type": "string",
+                        "doc": "The color to convert."
+                    }
+                }
+            },
             "white": {
                 "name": "white",
                 "type": "color",
@@ -1211,7 +1224,7 @@
                     "[timeout]": {
                         "name": "[timeout]",
                         "type": "number",
-                        "doc": "The maximim amount of time to wait for a response, defaults to 2"
+                        "doc": "The maximum amount of time to wait for a response, defaults to 2"
                     },
                     "[debug]": {
                         "name": "[debug]",

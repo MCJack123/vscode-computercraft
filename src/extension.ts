@@ -5,7 +5,7 @@ import L4RCApiData from "./ApiData"
 import { L4RCAutocomplete } from "./Autocomplete"
 import { L4RCHover } from "./Hover"
 
-const LUA_MODE = { language: "lua", scheme: "file" }
+const LUA_MODE = { language: "lua" }
 
 export function activate(context: vscode.ExtensionContext) {
     let dataPath = context.asAbsolutePath("./data")
